@@ -12,7 +12,7 @@ on:
 env:
   JIRA_BASE_URL: "https://your-jira-instance.atlassian.net"  # Replace with your Jira URL
   JIRA_USER: "rojasirir@gmail.com"  # Replace with your Jira email
-  JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}  # Store API token in GitHub Secrets- Generate the token from Jira under securit and settings.
+  JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}  # Store API token in GitHub Secrets- Generate the token from Jira under security and settings.
 
 jobs:
   validate-fixes:
