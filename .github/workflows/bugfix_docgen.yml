@@ -13,7 +13,7 @@ jobs:
     steps:
       # Step 1: Checkout the code
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3  #checkout code
 
       # Step 2: Extract Bug Fix Commit Messages
       - name: Extract Bug Fix Commits
